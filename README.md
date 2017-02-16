@@ -1,13 +1,16 @@
+http://es.slideshare.net/bismarck2009/ejercicios-basicos-sobre-linux-1576114
+https://prezi.com/fcnxbwcvkkmu/1-listar-todos-los-archivos-del-directorio-bin/
+
 # Ejercicios_Comandos_Linux
 
 1. Listar todos los archivos del directorio bin.
-
+ls /bin
 2. Listar todos los archivos del directorio tmp.  
-
+ls /tmp
 3. Listar todos los archivos del directorio etc que empiecen por t en orden inverso.  
-
+ls /etc/ -r t*
 4. Listar todos los archivos del directorio dev que empiecen por tty y tengan 5 caracteres.  
-
+ls /dev/tty*[1-4]
 5. Listar todos los archivos del directorio dev que empiecen por tty y acaben en 1,2,3 ó 4.  
 
 6. Listar todos los archivos del directorio dev que empiecen por t y acaben en C1.  
